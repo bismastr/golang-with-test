@@ -2,10 +2,6 @@ package helloworld
 
 import "fmt"
 
-func main() {
-	fmt.Println(Hello("Chris", "Spanish"))
-}
-
 func Hello(q string, lang string) string {
 	spanish := "Spanish"
 	english := "English"
